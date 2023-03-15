@@ -40,8 +40,8 @@ def pageCount(n, p):
             
         initial_pag+=1
     for i in page_book:   
-        
-        if(book[-1+i][1] == p or book[-1+i][0] == p):
+        print(book[-1-i])
+        if(book[-1-i][1] == p or book[-1-i][0] == p):
             break
             
         final_pag+=1
