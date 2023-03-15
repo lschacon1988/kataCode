@@ -21,5 +21,5 @@ def sock_merchant(n: int, ar: list):
 
 n = 9
 ar = [10 ,20 ,20 ,10 ,10 ,30 ,50 ,10 ,20]
-print(sock_merchant(n=n, ar=ar))  
+print(sock_merchant(n=n, ar=ar)) 
 
